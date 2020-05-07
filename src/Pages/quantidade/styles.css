@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+      max-width: 1180px;
+      padding: 0 30px 0 30px;
+      margin: 32px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .container header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .container ul li input{
+    width: 40px;
+    padding-left: 2px;
+    }
+
+  .container ul li button{
+    margin-left: 20px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border: 0;
+  }
+  .container ul li button:active{
+    background-color: green;
+  }
+
+
